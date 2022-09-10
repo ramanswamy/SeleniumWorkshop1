@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTests">
+    <test verbose="2" preserve-order="true" name="C:/Raman_Dell/SeleniumWorkshop/SeleniumWorkhop1">
+        <classes>
+            <class name="com.tekparams.actiondriver.ActonDriver">
+                <methods>
+                    <include name="openApplication"/>
+                    <include name="loginToApplication"/>
+                    <include name="closeApplication"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
